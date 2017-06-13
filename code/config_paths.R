@@ -1,4 +1,5 @@
-main.folder   <- "/home/rstudio/JASA"
+#main.folder   <- "/home/rstudio/JASA"
+main.folder   <- "."
 
 data.folder   <- file.path(main.folder, "data")
 code.folder   <- file.path(main.folder, "code")
@@ -6,7 +7,7 @@ figs.folder   <- file.path(main.folder, "figs")
 output.folder <- file.path(main.folder, "output")
 
 init_meters.folder       <- file.path(output.folder, "meter_data", "init_meters")
-init_meters.folder       <- "/home/rstudio/PROJ/procdata/initmeters"
+#init_meters.folder       <- "/home/rstudio/PROJ/procdata/initmeters"
 bottom_meters.folder     <- file.path(output.folder, "meter_data", "bottom_meters")
 aggregated_meters.folder <- file.path(output.folder, "meter_data", "aggregated_meters")
 
